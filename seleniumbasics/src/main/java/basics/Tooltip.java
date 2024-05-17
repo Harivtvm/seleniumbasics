@@ -17,9 +17,10 @@ public class Tooltip {
 		//System.out.println(a);
 		WebElement image1= driver.findElement(By.xpath("//a[@class='fa fa-lg fa-google']"));
 		String b=image1.getAttribute("title");
-		System.out.println(b);
-		System.out.println(driver.getTitle());
-		System.out.println(driver.getPageSource().contains("image"));
+		//System.out.println(b);
+		System.out.println(image1.isDisplayed());
+		//System.out.println(driver.getTitle());
+		//System.out.println(driver.getPageSource().contains("image"));
 
 	}
 
